@@ -1,4 +1,5 @@
 from rich import *
+
 def solve():
     steps = int(0)
     num = int(input('Input a Positive Integer: '))
@@ -10,9 +11,9 @@ def solve():
         else:
             num = int(3 * num + 1)
             print("[green]" + str(num) + " Number is Even")
-            steps = steps + 1
+            steps = steps + 1    
     else:
-        print('Finished! Problem Took ' + str(steps) + " Steps")
+        print('Finished! Problem Took ' + str(steps) + " Steps.")
     solve()
 
 solve()
