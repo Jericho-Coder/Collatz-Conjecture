@@ -36,4 +36,4 @@ def plot():
 
 plot()
 raw.write("\n")
-raw.close()
+raw.close() 
